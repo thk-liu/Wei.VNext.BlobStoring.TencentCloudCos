@@ -1,15 +1,15 @@
 <Project>
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
-    <Version>0.3.0.3</Version>
+    <Version>0.3.0.4</Version>
     <NoWarn>$(NoWarn);CS1591</NoWarn>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Authors>ÁõÖ¾Î°</Authors>
+    <Authors>åˆ˜å¿—ä¼Ÿ</Authors>
     <Description>An Abp module helps you control how often your service is used.</Description>
-    <PackageProjectUrl>https://github.com/Wei/Wei.VNext.BlobStoring.TencentCloudCos</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/Wei/Wei.VNext.BlobStoring.TencentCloudCos</RepositoryUrl>
-    <PackageTags>abp module blob ÌÚÑ¶ÔÆ</PackageTags>
-    <Company>ÁõÖ¾Î°</Company>
+    <PackageProjectUrl>https://github.com/thk-liu/Wei.VNext.BlobStoring.TencentCloudCos</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/thk-liu/Wei.VNext.BlobStoring.TencentCloudCos</RepositoryUrl>
+    <PackageTags>abp module blob è…¾è®¯äº‘</PackageTags>
+    <Company>åˆ˜å¿—ä¼Ÿ</Company>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
