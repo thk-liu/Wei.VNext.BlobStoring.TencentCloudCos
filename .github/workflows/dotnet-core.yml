@@ -16,3 +16,10 @@ jobs:
           PROJECT_FILE_PATH: src/Wei.VNext.BlobStoring.TencentCloudCos/Wei.VNext.BlobStoring.TencentCloudCos.csproj
           VERSION_FILE_PATH: common.props
           NUGET_KEY: ${{secrets.NUGET_API_KEY}}
+          
+      - name: publish Wei.VNext.TencentCloudSms.dll
+        uses: brandedoutcast/publish-nuget@v2
+        with:
+          PROJECT_FILE_PATH: src/Wei.VNext.TencentCloudSms/Wei.VNext.TencentCloudSms.csproj
+          VERSION_FILE_PATH: common.props
+          NUGET_KEY: ${{secrets.NUGET_API_KEY}}
