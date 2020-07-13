@@ -5,7 +5,7 @@
     <NoWarn>$(NoWarn);CS1591</NoWarn>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>刘志伟</Authors>
-    <Description>abp module blob 腾讯云</Description>
+    <Description>abp module 腾讯云</Description>
     <PackageProjectUrl>https://github.com/thk-liu/Wei.VNext.BlobStoring.TencentCloudCos</PackageProjectUrl>
     <RepositoryUrl>https://github.com/thk-liu/Wei.VNext.BlobStoring.TencentCloudCos</RepositoryUrl>
     <PackageTags>abp 腾讯云 COS SMS</PackageTags>
