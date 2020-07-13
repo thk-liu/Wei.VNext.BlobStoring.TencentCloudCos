@@ -47,26 +47,10 @@ namespace Wei.VNext.BlobStoring.QCloud.Cos.Tests
                         cos.AppId = appid;
                         cos.SecretKey = secretKey;
                         cos.SecretId = secretId;
-                        //cos.AppId = "1257947936";
-                        //cos.SecretKey = "jqoX3KM8i2D8mUyCBvS2MOAftqZ2MULv";
-                        //cos.SecretId = "AKIDseJvOcGcDXaOxFp9l6F8nBI7l9G7w18z";
                         cos.Region = EnumUtils.GetValue(CosRegion.AP_Guangzhou);
                     });
 
                 });
-                //options.Containers.ConfigureAll((containerName, containerConfiguration) =>
-                //{
-                //    containerConfiguration.UseTencentCloudCos(cos =>
-                //    {
-                //        cos.AppId = appid;
-                //        cos.SecretKey = secretKey;
-                //        cos.SecretId = secretId;
-                //        //cos.AppId = "1257947936";
-                //        //cos.SecretKey = "jqoX3KM8i2D8mUyCBvS2MOAftqZ2MULv";
-                //        //cos.SecretId = "AKIDseJvOcGcDXaOxFp9l6F8nBI7l9G7w18z";
-                //        cos.Region = EnumUtils.GetValue(CosRegion.AP_Guangzhou);
-                //    });
-                //});
             });
         }
     }

@@ -14,7 +14,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DCCE42C7-C9D3-43DE-931D-B6A68FD0D1D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wei.VNext.BlobStoring.TencentCloudCos.Tests", "test\Wei.VNext.BlobStoring.TencentCloudCos.Tests\Wei.VNext.BlobStoring.TencentCloudCos.Tests.csproj", "{FF7B3890-44FF-4814-A2A5-914260A8E1B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wei.VNext.BlobStoring.TencentCloudCos.Tests", "test\Wei.VNext.BlobStoring.TencentCloudCos.Tests\Wei.VNext.BlobStoring.TencentCloudCos.Tests.csproj", "{FF7B3890-44FF-4814-A2A5-914260A8E1B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wei.VNext.TencentCloudSms", "src\Wei.VNext.TencentCloudSMS\Wei.VNext.TencentCloudSms.csproj", "{78AEC468-28B2-4EF2-8800-9687C662E3F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wei.VNext.TencentCloudSms.Tests", "test\Wei.VNext.TencentCloudSms.Tests\Wei.VNext.TencentCloudSms.Tests.csproj", "{07C3D212-B9E5-413C-8426-0DC820ACA690}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +34,14 @@ Global
 		{FF7B3890-44FF-4814-A2A5-914260A8E1B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF7B3890-44FF-4814-A2A5-914260A8E1B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF7B3890-44FF-4814-A2A5-914260A8E1B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78AEC468-28B2-4EF2-8800-9687C662E3F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78AEC468-28B2-4EF2-8800-9687C662E3F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78AEC468-28B2-4EF2-8800-9687C662E3F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78AEC468-28B2-4EF2-8800-9687C662E3F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07C3D212-B9E5-413C-8426-0DC820ACA690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07C3D212-B9E5-413C-8426-0DC820ACA690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07C3D212-B9E5-413C-8426-0DC820ACA690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07C3D212-B9E5-413C-8426-0DC820ACA690}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +49,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{874A101E-422B-408F-8D0C-5C7DFF781ECA} = {35A7A756-3114-4B54-ADD1-F6D3E306575F}
 		{FF7B3890-44FF-4814-A2A5-914260A8E1B4} = {DCCE42C7-C9D3-43DE-931D-B6A68FD0D1D3}
+		{78AEC468-28B2-4EF2-8800-9687C662E3F6} = {35A7A756-3114-4B54-ADD1-F6D3E306575F}
+		{07C3D212-B9E5-413C-8426-0DC820ACA690} = {DCCE42C7-C9D3-43DE-931D-B6A68FD0D1D3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5B1BCCC3-8E74-4B30-98EF-A2FBC4E6CB7A}
