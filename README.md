@@ -1,3 +1,5 @@
+本项目已不在支持更新请移步至新的存储库[Wei.Abp](https://github.com/thk-liu/Wei.Abp).
+
 # Wei.VNext.BlobStoring.TencentCloudCos
 abp vnext blob 腾讯云的支持
 
